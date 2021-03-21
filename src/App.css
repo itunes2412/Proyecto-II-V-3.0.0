@@ -1,0 +1,88 @@
+header nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 81, 0);
+  padding: 10px 5px;
+}
+header nav .logo{
+  width: 70px;
+}
+header nav .logo img{
+  width: 100%;
+}
+header nav .menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .menu a{
+  text-decoration: none;
+  color: rgb(255, 250, 240);
+  display: block;
+  margin-left: 50px ;
+  background-color: rgb(255, 81, 0);
+  padding: 10px;
+  border-radius: 10px;
+}
+header nav .menu a:hover{
+  background-color:  rgb(255, 250, 240);
+  color: #000;
+}
+header .cabecera{
+  width: 100%;
+}
+header .cabecera img{
+  width: 100%;
+}
+section h2{
+  text-align: center;
+}
+section .informacion{
+  margin: 50px 70px;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .informacion .electro_imagen{
+  width: 60%;
+}
+section .informacion .electro_imagen img{
+  width: 100%;
+}
+section .informacion .informacion_texto{
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+}
+footer{
+  background-color: rgb(255, 81, 0);
+  padding: 50px 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 250, 240);
+}
+footer .telefonos{
+  width: 23%;
+  text-align: center;
+}
+footer .correos{
+  width: 23%;
+  text-align: center;
+}
+footer .sucursales{
+  width: 23%;
+  text-align: center;
+}
+footer .redes{
+  width: 23%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .redes img{
+  width: 30px;
+  cursor: pointer;
+}
