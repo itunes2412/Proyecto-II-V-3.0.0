@@ -1,15 +1,21 @@
+body{
+  background-color: black;
+}
+
+
 header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(255, 81, 0);
-  padding: 10px 5px;
+  background-color: black;
+  padding: 5px 5px;
 }
 header nav .logo{
-  width: 70px;
+  width: 180px;
 }
 header nav .logo img{
   width: 100%;
+  cursor: pointer;
 }
 header nav .menu{
   display: flex;
@@ -21,13 +27,13 @@ header nav .menu a{
   color: rgb(255, 250, 240);
   display: block;
   margin-left: 50px ;
-  background-color: rgb(255, 81, 0);
+  background-color: black;
   padding: 10px;
   border-radius: 10px;
 }
 header nav .menu a:hover{
-  background-color:  rgb(255, 250, 240);
-  color: #000;
+  background-color:  rgb(255, 81, 0);
+  color: rgb(255, 250, 240);
 }
 header .cabecera{
   width: 100%;
@@ -36,8 +42,14 @@ header .cabecera img{
   width: 100%;
 }
 section h2{
+  text-align: justify;
+  color: rgb(255, 250, 240);
   text-align: center;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  
 }
+
+
 section .informacion{
   margin: 50px 70px;
   padding: 30px 10px;
@@ -45,20 +57,228 @@ section .informacion{
   justify-content: space-around;
   align-items: center;
 }
-section .informacion .electro_imagen{
-  width: 60%;
-}
-section .informacion .electro_imagen img{
-  width: 100%;
+
+section .informacion_imagen img{
+  height: 500px;
+  width: 900px;
+  cursor: pointer;
 }
 section .informacion .informacion_texto{
   width: 30%;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
+  color: rgb(255, 250, 240);
+  font-family: 'Arial Narrow', Arial, sans-serif;
 }
+
+
+.catalago img{
+  margin: 30px 50px;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+section .catalago img {
+  height: auto;
+  width: auto;
+  cursor: pointer;
+}
+  h1{
+  text-align: center;
+  color: rgb(255, 250, 240);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+/* Imagenes de Laptop */
+.lap img{
+  margin: 20px 30px;
+  padding: 30px 10px;
+  align-items: center;
+  width: 100px;
+  display: inline-block;
+  justify-content: space-around;
+  
+}
+
+
+section .lap img {
+  height: 200px;
+  width: 250px;
+  cursor: pointer;
+  object-fit: cover;
+  display: inline;
+ 
+  
+}
+
+
+/* Estructura de las columnas */
+
+
+
+.wrapper {
+	padding: 5px;
+	max-width: 960px;
+	width: 95%;
+	margin: 20px auto;
+}
+header {
+	padding: 0 15px;
+}
+
+.column {
+  text-align: justify;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	border: 1px solid rgb(255, 81, 0);
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+	
+}
+
+
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+		margin-bottom: 5px;
+    flex-basis: 40%;
+		&:nth-last-child(2) {
+			margin-right: 0;
+		}
+		&:last-child {
+			flex-basis: 100%;
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
+
+
+/* Formulario */
+section h4{
+  
+  color: rgb(255, 250, 240);
+  text-align: center;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+
+.wrap {
+  margin: 0 auto;
+} 
+.login {
+  width: 280px;
+  margin-top: 42px;
+}
+.login input[type=text],
+.login input[type=password] {
+  opacity: 1;
+  display: block;
+  border: none;
+  outline: none;
+  width: 280px;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  border-radius: 2px;
+}
+.login input[type=text] {
+  animation: bounce 1s;
+  -webkit-appearance: none;
+}
+.login input[type=text]:focus:valid {
+  box-shadow: 0 0 0 10000px #000000;
+}
+.login input[type=text]:focus:valid ~ input[type=button] {
+  background: #000000;
+  color: #050505;
+}
+.login input[type=text]:focus:valid ~ input[type=submit] {
+  color: #000000;
+}
+.login input[type=text]:invalid {
+  box-shadow: 0 0 0 10000px #000000;
+}
+.login input[type=text]:invalid ~ input[type=button] {
+  background: #000000;
+  color: #000000;
+}
+.login input[type=text]:invalid ~ input[type=submit] {
+  color: #000000;
+}
+.login input[type=password] {
+  animation: bounce1 1.3s;
+}
+.login input[type=submit],
+.login input[type=button] {
+  border: 0;
+  outline: 0;
+  padding: 13px 18px;
+  margin: 40px 0 0 0;
+  border-radius: 2px;
+  font-weight: 550;
+  animation: bounce2 2.0s;
+} 
+.login input[type=submit] {
+  float: right;
+  background: #fff;  
+  color: #34495e;
+  outline: none;
+}
+.login input[type=button] {
+  background: #fff;
+  color: #34495e;
+}
+@keyframes bounce {
+  0% { transform: translateY(-250px); opacity: 0; }
+} 
+@keyframes bounce1 {
+  0% {  opacity: 0; }
+  40% { transform: translateY(-100px); opacity: 0;}
+}
+@keyframes bounce2 {
+  0% {  opacity: 0; }
+  70% { transform: translateY(-20px); opacity: 0;}
+}      
+
+
+
+
 footer{
   background-color: rgb(255, 81, 0);
-  padding: 50px 20px;
+  padding: 10px 10px ;
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
@@ -66,23 +286,34 @@ footer{
   color: rgb(255, 250, 240);
 }
 footer .telefonos{
-  width: 23%;
+  width: 20%;
   text-align: center;
 }
 footer .correos{
-  width: 23%;
+  width: 20%;
   text-align: center;
 }
 footer .sucursales{
-  width: 23%;
+  width: 20%;
   text-align: center;
 }
 footer .redes{
-  width: 23%;
+  width: 20%;
   display: flex;
   justify-content: space-around;
 }
 footer .redes img{
   width: 30px;
+  cursor: pointer;
+}
+
+footer .logom img{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .logom img{
+  margin: 20px;
+  width: 90px;
   cursor: pointer;
 }
