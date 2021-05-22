@@ -37,6 +37,7 @@ function App() {
             CONTACTO
           </a>
     
+    
 
         </div>
       </nav>
@@ -45,7 +46,15 @@ function App() {
       </img>
       </div>
     </header>
-    
+
+    <div id="redessociales">
+          <a class="smedia facebook" href="https://www.facebook.com/">Uno</a>
+          <a class="smedia twitter" href="https://www.twitter.com/">Dos</a>
+          <a class="smedia instagram" href="https://www.instagram.com/?hl=es-la">Tres</a>
+          <a class="smedia youtube" href="https://www.youtube.com/">Cuatro</a>
+          <a class="smedia vimeo" href="https://vimeo.com/es">Cinco</a>
+          <a class="smedia email" href="https://www.google.com/intl/es-419/gmail/about/">Seis</a>
+</div>
 
     <section>
 
@@ -176,8 +185,7 @@ Feugiat gravida egestas eu sociis consequat imperdiet conubia quisque scelerisqu
 
     </section>
 
-
-
+  
 
     <footer>
   <div className="logom">
@@ -201,6 +209,9 @@ Feugiat gravida egestas eu sociis consequat imperdiet conubia quisque scelerisqu
         <p>CDMX</p>
        
       </div>
+
+
+      
       <div className="redes">
           <img src="img/face.png"></img>
           <img src="img/insta.png"></img>
