@@ -44,8 +44,15 @@ function App() {
       <div className="cabecera">
       <img  src="img/top.jpg">
       </img>
+      <div class="texto1">TEAC</div>
+      <div class="texto2">TN-280BT-A3</div>
+      <div class="texto3">PRECIO <s>$6,999.00</s></div>
+      <div class="texto4">PRECIO HOT SALE <b>$4,499.00</b></div>
+
+      <div class="texto5">The TN-280BT-A3 is not only a great-sounding turntable for music enthusiastic who want to enjoy vinyl record from closet or re-issues. It brings you a totally new way of listening to vinyl records with its Bluetooth® capability. No extra cost for hi-fi components or complicated wiring is required. Only Bluetooth® speakers or headphones you might have for iPhones are required to enjoy the world of vinyl records.</div>
       </div>
     </header>
+  
 
     <div id="redessociales">
           <a class="smedia facebook" href="https://www.facebook.com/">Uno</a>
@@ -61,26 +68,25 @@ function App() {
           <div className="informacion">
           <div className="informacion_imagen">
              
-              <img src="img/electro.png">
-              </img>
-
+              <img src="img/electro.png"></img>
           </div>
           
 	<div class="column">
-		<h2>TODAS LAS MARCAS DE RENOMBRE EN UN SOLO SITIO</h2>
-		<p>En Muebles Troncaso encontrarás los precios más bajos del mercado, con una selección de electrodomésticos de 
-              gran calidad. Te ofrecemos las mejores marcas, tales como Bosch, Stanton, Balay, Samsung, Siemens, Teka, Sony, 
-              BOSE, Electrolux, AEG, LG y otras muchas que se encuentran entre las más reconocidas y prestigiosas del mundo 
-              de los electrodomésticos.
-              En nuestra tienda online te ponemos al alcance un amplio catálogo de electrodomésticos baratos para que puedas 
-              escoger el que más te guste al mejor precio del momento.
-              Compra de forma sencilla, rápida y económica los electrodomésticos que necesites para tu hogar y equipa toda tu 
-              casa con los electrodomésticos baratos de calidad que estás buscando.</p>
+		<h2>ELECTRÓNICA</h2>
+		<p>Del 21 al 31 de mayo, gracias al Hot Sale 2021, disfruta de los mejores descuentos y promociones en la sección de electrónica.
+
+
+
+La electrónica nos facilita la vida y nos mantiene conectados. Sus innovaciones también sorprenden a nuestra imaginación y nos hacen soñar con el futuro.
+
+En el trabajo, en el hogar o como parte del ocio. Los aparatos electrónicos están presentes en todas las facetas de nuestra vida. ¿Te imaginas estar sin laptops y tablets o vivir sin música o videojuegos?</p>
 	</div>
 	
       </div>
 
     </section>
+
+
 
     <section>
     <div className="catalago">
@@ -184,6 +190,54 @@ Feugiat gravida egestas eu sociis consequat imperdiet conubia quisque scelerisqu
   </div>
 
     </section>
+    
+    <section>
+    <div className="aud">
+    <div className="aud_imagen">
+  
+    <img src="img/pro.png"></img>
+    <img src="img/lg.png"></img>
+    <img src="img/son.png"></img>
+
+  </div>
+  </div>
+
+    </section>
+
+    <section class="columns2">
+
+	<div class="column2">
+		<h3> Apple</h3>
+    <h2> AirPods Pro</h2>
+		<p>Cancelación Activa de Ruido.</p>
+    <p>Modo Ambiente.</p>
+    <p> Ecualización Adaptativa.</p>
+    <p>Ecualización de presión mediante un sistema de ventilación.</p>
+    <p>Controlador de alta excursión diseñado por Apple.</p>
+    <p>Amplificador exclusivo con alto rango dinámico.</p>
+	</div>
+	
+	<div class="column2">
+  <h3>LG</h3>
+		<h2>Pantalla LG 70" 4K 70UN7370PUC</h2>
+		<p>Existe una clara diferencia entre la resolución 8K y 4K: OLED 8K es cuatro veces la resolución de 4K. Pero también hay 
+      una clara diferencia entre OLED 8K y LED 8K. Los televisores LG OLED tienen píxeles de auto iluminación que se pueden 
+      controlar individualmente para mostrar niveles inigualables de profundidad y detalle. También tienen el procesador α9 
+      Gen4 Processor 8K, un chip increíblemente poderoso que escala 4K a 8K. Y con LG OLED TV Z1, puedes experimentar 8K en 
+      pantallas asombrosamente grandes de 77 y 88 pulgadas.</p>
+	</div>
+  
+  <div class="column2">
+    <h3>SONOS</h3>
+		<h2>Bocina wifi SONOS FIVE1US1BLK</h2>
+		<p>Si eres de los que disfrutan al máximo la música y todas sus variantes, esto te interesa. Lleva tus sonidos favoritos a 
+      cualquier habitación con nuestra selección de bocinas inalámbricas y bocinas con Bluetooth.
+
+Y no te preocupes por el montaje, las bocinas pequeñas se adaptarán a cualquier espacio, ideales para acompañarte a todos lados.</p>
+	</div>
+  
+	
+</section>
 
   
 
