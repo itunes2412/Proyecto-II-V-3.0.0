@@ -5,7 +5,7 @@ function App() {
   return (
    <>
     <header>
-      
+    
 
       <nav>
         <div className="logo">
@@ -18,22 +18,22 @@ function App() {
           <a href="#">
             INICIO
           </a>
-          <a href="#">
+          <a href="#pantallas">
            PANTALLAS
           </a>
-          <a href="#">
+          <a href="#audio">
             AUDIO
           </a>
-          <a href="#">
+          <a href="#tornamesa">
             TORNAMESAS
           </a>
-          <a href="#">
+          <a href="#celulares">
             CELULARES
           </a>
-          <a href="#">
+          <a href="#computadoras">
            COMPUTADORAS
           </a>
-          <a href="#">
+          <a href="#contacto">
             CONTACTO
           </a>
     
@@ -42,14 +42,17 @@ function App() {
         </div>
       </nav>
       <div className="cabecera">
-      <img  src="img/top.jpg">
+      <img  src="img/top.jpg" id="tornamesa">
       </img>
+
+      
+      
       <div class="texto1">TEAC</div>
       <div class="texto2">TN-280BT-A3</div>
       <div class="texto3">PRECIO <s>$6,999.00</s></div>
       <div class="texto4">PRECIO HOT SALE <b>$4,499.00</b></div>
-
       <div class="texto5">The TN-280BT-A3 is not only a great-sounding turntable for music enthusiastic who want to enjoy vinyl record from closet or re-issues. It brings you a totally new way of listening to vinyl records with its Bluetooth® capability. No extra cost for hi-fi components or complicated wiring is required. Only Bluetooth® speakers or headphones you might have for iPhones are required to enjoy the world of vinyl records.</div>
+     
       </div>
     </header>
   
@@ -63,6 +66,21 @@ function App() {
           <a class="smedia email" href="https://www.google.com/intl/es-419/gmail/about/">Seis</a>
 </div>
 
+<div className="cabecera2">
+      <img  src="img/sam.jpg" id="pantallas">
+      </img>
+      <div class="texto7">SAMSUNG</div>
+      <div class="texto8">85" Q70A QLED 4K Smart TV 2021</div>
+      <div class="texto9">PRECIO HOT SALE <b>$34,999.00</b></div>
+      <div class="texto10">PRECIO <s>$54,999.00</s></div>
+      <div class="texto11">*Tecnología Quantum 4K </div>
+      <div class="texto12">*100% volumen de color con Quantum Dot</div>
+      <div class="texto13">*Mayor rango de contraste con Quantum HDR</div>
+
+      
+     
+      </div>
+
     <section>
 
           <div className="informacion">
@@ -74,25 +92,37 @@ function App() {
 	<div class="column">
 		<h2>ELECTRÓNICA</h2>
 		<p>Del 21 al 31 de mayo, gracias al Hot Sale 2021, disfruta de los mejores descuentos y promociones en la sección de electrónica.
-
-
-
-La electrónica nos facilita la vida y nos mantiene conectados. Sus innovaciones también sorprenden a nuestra imaginación y nos hacen soñar con el futuro.
-
-En el trabajo, en el hogar o como parte del ocio. Los aparatos electrónicos están presentes en todas las facetas de nuestra vida. ¿Te imaginas estar sin laptops y tablets o vivir sin música o videojuegos?</p>
+    La electrónica nos facilita la vida y nos mantiene conectados. Sus innovaciones también sorprenden a nuestra imaginación y nos hacen
+    soñar con el futuro.
+    En el trabajo, en el hogar o como parte del ocio. Los aparatos electrónicos están presentes en todas las facetas de nuestra vida. 
+    ¿Te imaginas estar sin laptops y tablets o vivir sin música o videojuegos?</p>
 	</div>
 	
       </div>
 
     </section>
 
+    <div className="cabecera3">
+      <img  src="img/iphone.jpg" id="celulares">
+      </img>
+      <div class="texto14">iPhone 12 Pro</div>
+      <div class="texto15"><b>Un salto al siguiente nivel.</b></div>
+      <div class="texto16">DESCUENTO HOT SALE <b>15% de Descuento</b></div>
+      <div class="texto17">Desde $27,499</div>
+      <div class="texto18">iPhone Pro Max </div>
+      <div class="texto19">18 Meses sin intereses con tarjetas participantes</div>
+      <div class="texto20">El chip A14 Bionic es muy superior a cualquier otro chip de smartphone. El sistema de cámaras Pro te permite tomar fotos espectaculares con poca luz, y el iPhone 12 Pro Max lleva tu talento fotográfico mucho más allá. Además, el nuevo frente de Ceramic Shield es cuatro veces más resistente a las caídas. Descubre todo lo que el iPhone 12 Pro hace para llevarte al siguiente nivel.</div>
+
+      
+     
+      </div>
 
 
     <section>
     <div className="catalago">
     <div className="catalago_imagen">
   
-  <img src="img/computadora.png"></img>
+  <img src="img/computadora.png" id="computadoras"></img>
 
   </div>
   </div>
@@ -118,7 +148,7 @@ En el trabajo, en el hogar o como parte del ocio. Los aparatos electrónicos est
   </div>
 
     </section>
-
+   
 		
 <section class="columns">
 
@@ -140,7 +170,7 @@ En el trabajo, en el hogar o como parte del ocio. Los aparatos electrónicos est
 	</div>
   
   <div class="column">
-		<h2>ASUS VivoBook Flip 14 TP412</h2>
+		<h2 id="pantallas">ASUS VivoBook Flip 14 TP412</h2>
 		<p>ASUS VivoBook Flip 14 es una laptop convertible que cuenta con el bisel ASUS NanoEdge extremadamente delgado, lo que permite
        que su pantalla Full HD de 14 pulgadas se ajuste a un marco típico de una laptop de 13 pulgadas. La delgada y liviana VivoBook 
        Flip 14 está diseñada para adaptarse a cualquier ocasión. Usala como una elegante computadora portátil, una práctica tableta, o 
@@ -167,24 +197,12 @@ Feugiat gravida egestas eu sociis consequat imperdiet conubia quisque scelerisqu
 	</div>
   
 
-<section><h4>ENTRAR</h4></section>
-  
-  <div class="login wrap">
-  <input type="text" name="email" id="email" placeholder="Correo Electrónico*" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"/>
-  <input type="password" name="password" id="password" placeholder="Contraseña*" />
-  <input type="button" value="Ayuda" />
-  <input type="submit" value="Iniciar Sesión" />
-</div>
-
-
-
-
 
 <section>
     <div className="catalago">
     <div className="catalago_imagen">
   
-  <img src="img/barra.png"></img>
+  <img src="img/barra.png" id= "audio"></img>
 
   </div>
   </div>
@@ -232,12 +250,19 @@ Feugiat gravida egestas eu sociis consequat imperdiet conubia quisque scelerisqu
 		<h2>Bocina wifi SONOS FIVE1US1BLK</h2>
 		<p>Si eres de los que disfrutan al máximo la música y todas sus variantes, esto te interesa. Lleva tus sonidos favoritos a 
       cualquier habitación con nuestra selección de bocinas inalámbricas y bocinas con Bluetooth.
-
-Y no te preocupes por el montaje, las bocinas pequeñas se adaptarán a cualquier espacio, ideales para acompañarte a todos lados.</p>
+    Y no te preocupes por el montaje, las bocinas pequeñas se adaptarán a cualquier espacio, ideales para acompañarte a todos lados.</p>
 	</div>
   
 	
 </section>
+<div class="texto6" id="contacto">CONTACTO</div>
+  
+  <div class="login wrap">
+  <input type="text" name="email" id="email" placeholder="Correo Electrónico*" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"/>
+  <input type="password" name="password" id="password" placeholder="Contraseña*" />
+  <input type="button" value="Ayuda" />
+  <input type="submit" value="Iniciar Sesión" />
+</div>
 
   
 
@@ -272,7 +297,7 @@ Y no te preocupes por el montaje, las bocinas pequeñas se adaptarán a cualquie
           <img src="img/twit.png"></img>
           <img src="img/you.png"></img>
       </div>
-      <h6>©2021 Muebles Troncaso</h6>
+      <h6>Muebles Troncaso | 2021 |</h6>
     </footer>
    </>
   );
