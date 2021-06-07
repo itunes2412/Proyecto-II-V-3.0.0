@@ -64,7 +64,7 @@ function App() {
           <a class="smedia youtube" href="https://www.youtube.com/">Cuatro</a>
           <a class="smedia vimeo" href="https://vimeo.com/es">Cinco</a>
           <a class="smedia email" href="https://www.google.com/intl/es-419/gmail/about/">Seis</a>
-</div>
+    </div>
 
 <div className="cabecera2">
       <img  src="img/sam.jpg" id="pantallas">
@@ -182,11 +182,7 @@ function App() {
 <section class="columns">
 
 	<div class="column">
-		<h2>Lorem ipsum dolor sit amet consectetur adipiscing elit interdum leo ante, dis gravida sagittis vestibulum quisque odio ad praesent fames. Feugiat diam maecenas ut malesuada nec libero a eros, interdum potenti gravida nunc neque cursus penatibus, netus magna dapibus curabitur litora natoque laoreet. Inceptos sodales hac dignissim erat proin vulputate ullamcorper maecenas, cras aptent gravida conubia rutrum ridiculus orci aliquet dictumst, rhoncus lacus justo vitae platea eu mollis.</h2>
-    
-		<p>Lorem ipsum dolor sit amet consectetur adipiscing elit interdum leo ante, dis gravida sagittis vestibulum quisque odio ad praesent fames. Feugiat diam maecenas ut malesuada nec libero a eros, interdum potenti gravida nunc neque cursus penatibus, netus magna dapibus curabitur litora natoque laoreet. Inceptos sodales hac dignissim erat proin vulputate ullamcorper maecenas, cras aptent gravida conubia rutrum ridiculus orci aliquet dictumst, rhoncus lacus justo vitae platea eu mollis.
-
-Feugiat gravida egestas eu sociis consequat imperdiet conubia quisque scelerisque, convallis lectus aliquet aptent dis urna vestibulum nullam mus velit, auctor tortor varius venenatis tempor lobortis sodales proin. Nec ridiculus cum platea taciti curae metus urna, feugiat bibendum quisque integer blandit massa morbi quis, ullamcorper rutrum fusce sollicitudin elementum sagittis. In arcu suscipit magna libero quis porttitor aptent sed vehicula, nostra etiam bibendum sapien sociis purus inceptos nam montes, mi a tempus quam sodales magnis luctus cras.</p>
+		<h2></h2>
 	</div>
 	
 	
@@ -259,9 +255,9 @@ Feugiat gravida egestas eu sociis consequat imperdiet conubia quisque scelerisqu
   
   <div class="login wrap">
   <input type="text" name="email" id="email" placeholder="Correo Electrónico*" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"/>
-  <input type="password" name="password" id="password" placeholder="Contraseña*" />
+  <input type="password" name="password" id="password" placeholder="Dejanos tu comentario*" />
   <input type="button" value="Ayuda" />
-  <input type="submit" value="Iniciar Sesión" />
+  <input type="submit" value="ENVIAR" />
 </div>
 
   
