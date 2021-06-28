@@ -4,10 +4,7 @@ import './App.css';
 function App() {
   return (
    <>
-    <header>
-    
-
-      <nav>
+   <nav>
         <div className="logo">
           <img src="img/Mueblerias.png">
           </img>
@@ -41,6 +38,7 @@ function App() {
 
         </div>
       </nav>
+    <header>
       <div className="cabecera">
       <img  src="img/top.jpg" id="tornamesa">
       </img>
@@ -222,7 +220,7 @@ function App() {
 
 	<div class="column2">
 		<h3> Apple</h3>
-    <h2> AirPods Pro</h2>
+    <h2 className="subtitulo"> AirPods Pro</h2>
 		<p>Cancelación Activa de Ruido.</p>
     <p>Modo Ambiente.</p>
     <p> Ecualización Adaptativa.</p>
@@ -243,7 +241,7 @@ function App() {
   
   <div class="column2">
     <h3>SONOS</h3>
-		<h2>Bocina wifi SONOS FIVE1US1BLK</h2>
+		<h2>Wi-Fi SONOS FIVE1US1BLK</h2>
 		<p>Si eres de los que disfrutan al máximo la música y todas sus variantes, esto te interesa. Lleva tus sonidos favoritos a 
       cualquier habitación con nuestra selección de bocinas inalámbricas y bocinas con Bluetooth.
     Y no te preocupes por el montaje, las bocinas pequeñas se adaptarán a cualquier espacio, ideales para acompañarte a todos lados.</p>
@@ -251,50 +249,81 @@ function App() {
   
 	
 </section>
-<div class="texto6" id="contacto">CONTACTO</div>
+<div class="texto6" id="contacto">Login</div>
   
   <div class="login wrap">
   <input type="text" name="email" id="email" placeholder="Correo Electrónico*" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"/>
-  <input type="password" name="password" id="password" placeholder="Dejanos tu comentario*" />
+  <input type="password" name="password" id="password" placeholder="Contraseña*" />
   <input type="button" value="Ayuda" />
-  <input type="submit" value="ENVIAR" />
+  <input type="submit" value="ENTRAR" />
 </div>
+
+
+
+<div className="mapa"><h2>Donde nos ubicamos</h2>
+
+<div align="center"><img src="img/map.png" width="950" height="500"></img></div></div>
+
 
   
 
-    <footer>
-  <div className="logom">
-  <img src="img/logo.png"></img>
-  </div>
+<div className="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>CONÓCENOS</h3>
+                        <ul>
+                            <li><a href="#">Información corporativa</a></li>
+                            <li><a href="#">Departamento de prensa</a></li>
+                            <li><a href="#">Vender en Muebles Troncaso</a></li>
+                            <li><a href="#">Se parte de nuestro equipo</a></li>
+                        </ul>
+                    </div>
 
-      <div className="telefonos">
-        <h3>Soporte</h3>
-        <p>8000213000</p>
-        <p>3312587421</p>
-        
-      </div>
-      <div className="correos">
-        <h3>Contacto</h3>
-        <p>mueblestroncaso@troncaso.com</p>
-        
-      </div>
-      <div className="sucursales">
-        <h3>Sucursales</h3>
-        <p>Guadalajara</p>
-        <p>CDMX</p>
-       
-      </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>TÉRMINOS Y CONDICIONES</h3>
+                        <ul>
+                            <li><a href="#">Aviso de privacidad</a></li>
+                            <li><a href="#">Términos</a></li>
+                            <li><a href="#">Términos y condiciones de uso del sitio</a></li>
+                        </ul>
+                    </div>
 
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>INFORMACIÓN DE LA EMPRESA</h3>
+                        <ul>
+                            <li><a href="#">Acerca de Muebles Troncaso</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Prensa</a></li>
+                            <li><a href="#">Información Corporativa</a></li>
+                        </ul>
+                    </div>
 
-      
-      <div className="redes">
-          <img src="img/face.png"></img>
-          <img src="img/insta.png"></img>
-          <img src="img/twit.png"></img>
-          <img src="img/you.png"></img>
-      </div>
-      <h6>Muebles Troncaso | 2021 |</h6>
-    </footer>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>ASISTENCIA</h3>
+                        <ul>
+                            <li><a href="#">Servico al cliente</a></li>
+                            <li><a href="#">Preguntas frecuentes</a></li>
+                            <li><a href="#">Pago</a></li>
+                            <li><a href="#">Envío</a></li>
+                            <li><a href="#">Como usar nuestrio sitio</a></li>
+                            <li><a href="#">Mapa del sitio</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Muebles Troncaso © 2021</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    
+
+  
    </>
   );
 }
